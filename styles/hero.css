@@ -1,0 +1,168 @@
+.hero__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__img img {
+  width: 78vmax;
+  margin-top: 5vh;
+}
+
+.hero__text {
+  width: 30vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  left: 15vw;
+}
+
+.hero__text h3 {
+  color: #dc582a;
+  font-family: Poppins;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%; /* 30.48px */
+}
+
+.hero__text h2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127%; /* 50.8px */
+  margin-bottom: 1vw;
+}
+
+.hero__text p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.1vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127%; /* 25.4px */
+}
+
+.hero__search {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-inline: 12vw;
+  gap: 3vh;
+}
+
+.hero__search-div {
+  display: flex;
+  align-items: center;
+}
+
+.hero__search-div input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 95%;
+  font-size: 14px;
+  border-radius: 2px 0px 0px 2px;
+  background: #f3f3f3;
+  /* border: 1px solid red; */
+}
+
+.hero__search-btn {
+  padding: 10px;
+  border-radius: 0px 2px 2px 0px;
+  background: #509e2f;
+}
+
+.hero__recipe-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-left: 12vw;
+  gap: 30px;
+  overflow-x: scroll;
+}
+
+.hero__recipe-type::-webkit-scrollbar {
+  display: none;
+}
+
+.hero__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  min-width: 240px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero__first {
+  background-color: #eaaa00;
+}
+
+.hero__second {
+  background-color: #c4d600;
+}
+
+.hero__third {
+  background-color: #dc582a;
+}
+
+/* xs */
+/* @media (max-width: 475px){
+} */
+
+/* sm */
+/* @media (max-width: 640px){
+} */
+
+/* md */
+@media (max-width: 768px) {
+  .hero__text h3 {
+    font-size: 3vw;
+  }
+
+  .hero__text h2 {
+    font-size: 4vw;
+  }
+
+  .hero__text p {
+    font-size: 2vw;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .hero__search {
+    margin-inline: 8vw;
+  }
+
+  .hero__img img {
+    width: 80vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .hero__recipe-type {
+    margin-left: 8vw;
+  }
+}
+
+/* xL */
+/* @media (max-width: 1280px){ 
+ } */
+
+/* 2xL */
+/* @media (max-width: 1536px){ 
+    
+ } */

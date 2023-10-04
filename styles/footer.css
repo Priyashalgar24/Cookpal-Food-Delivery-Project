@@ -1,0 +1,160 @@
+.footer {
+  margin-inline: 12vw;
+}
+
+.footer__div1 p {
+  color: #253d4e;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-1 {
+  display: flex;
+
+  justify-content: center;
+  gap: 1vw;
+  margin-bottom: 5vh;
+}
+
+.footer__div1 {
+  flex: 2;
+}
+
+.footer__div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+
+.footer__div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+
+.footer__div4 {
+  flex: 1;
+}
+
+.footer__div4 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.28px;
+}
+
+.footer-2 {
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.footer__div3 h4,
+.footer__div2 h4 {
+  color: #253d4e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 130% */
+  padding: 10px;
+}
+
+.footer__links {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  padding: 10px;
+}
+
+.footer__div4 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.email__input {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.input__area {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.email__input input {
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.subscibe-btn {
+  padding: 10px 15px;
+  background-color: var(--clr-green);
+  color: var(--clr-light);
+  border: none;
+  border-radius: 5px;
+}
+
+/* xs */
+/* @media (max-width: 475px){
+} */
+
+/* sm */
+/* @media (max-width: 640px){
+} */
+
+/* md */
+/* @media (max-width: 768px){ 
+  
+ } */
+
+/* lg */
+/* @media (max-width: 1024px){ 
+    
+ } */
+
+/* xL */
+@media (max-width: 1280px) {
+  .footer__div1 {
+    width: 100% !important;
+  }
+  .footer__div2 {
+    display: none;
+  }
+  .footer__div3 {
+    display: none;
+  }
+  .footer__div4 {
+    display: none;
+  }
+
+  .footer-2 {
+    display: none !important;
+  }
+}
+
+/* 2xL */
+/* @media (max-width: 1536px){ 
+    
+ } */
