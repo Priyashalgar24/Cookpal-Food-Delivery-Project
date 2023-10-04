@@ -1,6 +1,6 @@
 Hey Welcome to My Cookpal Website
 
-- 🎉 The website features a visually appealing and engaging hero section that welcomes visitors and sets the tone for the overall browsing experience.
+- The website features a visually appealing and engaging hero section that welcomes visitors and sets the tone for the overall browsing experience.
 
 - 🍽️ A well-organized grid layout displays a variety of recipes, making it easy for users to browse through the available options.
 
